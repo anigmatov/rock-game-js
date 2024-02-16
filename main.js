@@ -52,7 +52,7 @@ document.querySelector('.js-result')
   .innerHTML = result;
 
 document.querySelector('.js-moves')
-  .innerHTML = `You picked <img src="img/${playerMove}-emoji.png" alt="" class="move-icon"> <img src="img/${computerMove}-emoji.png" alt="" class="move-icon"> Computer picked`;
+  .innerHTML = `You picked <img src="${playerMove}-emoji.png" alt="" class="move-icon"> <img src="${computerMove}-emoji.png" alt="" class="move-icon"> Computer picked`;
 
 localStorage.setItem('score', JSON.stringify(score));
 
